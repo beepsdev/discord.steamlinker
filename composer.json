@@ -1,0 +1,14 @@
+{
+  "name": "beepsdev/discord.steamlinker",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/beepsdev/cordpuller" }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Steamlinker\\": "lib/"
+    }
+  },
+  "require-dev": {
+    "beepsdev/cordpuller": "dev-master"
+  }
+}
